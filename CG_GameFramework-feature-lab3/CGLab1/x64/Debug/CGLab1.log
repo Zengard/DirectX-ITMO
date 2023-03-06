@@ -1,0 +1,26 @@
+﻿  SolarSystemComponent.cpp
+D:\CG_GameFramework-feature-lab3\CGLab1\SolarSystemComponent.cpp(28,55): warning C4305: аргумент: усечение из "double" в "float"
+D:\CG_GameFramework-feature-lab3\CGLab1\SolarSystemComponent.cpp(68,19): warning C4305: +=: усечение из "double" в "float"
+D:\CG_GameFramework-feature-lab3\CGLab1\SolarSystemComponent.cpp(197,15): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+D:\CG_GameFramework-feature-lab3\CGLab1\SolarSystemComponent.cpp(198,15): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+D:\CG_GameFramework-feature-lab3\CGLab1\SolarSystemComponent.cpp(202,14): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+D:\CG_GameFramework-feature-lab3\CGLab1\SolarSystemComponent.cpp(203,14): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+D:\CG_GameFramework-feature-lab3\CGLab1\SolarSystemComponent.cpp(290,20): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+D:\CG_GameFramework-feature-lab3\CGLab1\SolarSystemComponent.cpp(294,20): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+  CGLab1.vcxproj -> D:\CG_GameFramework-feature-lab3\x64\Debug\CGLab1.exe
+D:\CG_GameFramework-feature-lab3\CGLab1\Camera.cpp(4): warning C26495: Переменная "Camera::inputDeviceCameraInstance" не инициализирована. Всегда инициализируйте переменную-член (type.6).
+D:\CG_GameFramework-feature-lab3\CGLab1\Delegates.h(409): warning C26495: Переменная "InlineAllocator<32>::<unnamed-tag>::pPtr" не инициализирована. Всегда инициализируйте переменную-член (type.6).
+D:\CG_GameFramework-feature-lab3\CGLab1\Game.cpp(5): warning C26495: Переменная "Game::display" не инициализирована. Всегда инициализируйте переменную-член (type.6).
+D:\CG_GameFramework-feature-lab3\CGLab1\Game.cpp(134): warning C6387: "depthBuffer" может быть "0".
+D:\CG_GameFramework-feature-lab3\CGLab1\Game.cpp(138): warning C6387: "backTexture" может быть "0".
+D:\CG_GameFramework-feature-lab3\CGLab1\TriangleComponent.h(14): warning C26495: Переменная "TriangleComponentParameters::numIndeces" не инициализирована. Всегда инициализируйте переменную-член (type.6).
+D:\CG_GameFramework-feature-lab3\CGLab1\GeometryGenerator.cpp(9): warning C26495: Переменная "GeometryGenerator::Vertex::TexC" не инициализирована. Всегда инициализируйте переменную-член (type.6).
+D:\CG_GameFramework-feature-lab3\CGLab1\InputDevice.cpp(6): warning C26495: Переменная "InputDevice::ScreenParam" не инициализирована. Всегда инициализируйте переменную-член (type.6).
+D:\CG_GameFramework-feature-lab3\CGLab1\InputDevice.h(19): warning C26495: Переменная "MouseMoveEventArgs::WheelDelta" не инициализирована. Всегда инициализируйте переменную-член (type.6).
+D:\CG_GameFramework-feature-lab3\CGLab1\Pong.cpp(90): warning C26495: Переменная "Bar::game" не инициализирована. Всегда инициализируйте переменную-член (type.6).
+D:\CG_GameFramework-feature-lab3\CGLab1\Pong.cpp(199): warning C26451: Арифметическое переполнение: использование оператора "*" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора "*", чтобы избежать переполнения (io.2).
+D:\CG_GameFramework-feature-lab3\CGLab1\Pong.cpp(200): warning C26451: Арифметическое переполнение: использование оператора "*" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора "*", чтобы избежать переполнения (io.2).
+D:\CG_GameFramework-feature-lab3\CGLab1\SolarSystemComponent.cpp(74): warning C26451: Арифметическое переполнение: использование оператора "*" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора "*", чтобы избежать переполнения (io.2).
+D:\CG_GameFramework-feature-lab3\CGLab1\SolarSystemComponent.cpp(74): warning C26451: Арифметическое переполнение: использование оператора "*" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора "*", чтобы избежать переполнения (io.2).
+D:\CG_GameFramework-feature-lab3\CGLab1\TriangleComponent.cpp(5): warning C26495: Переменная "TriangleComponent::vBuffers" не инициализирована. Всегда инициализируйте переменную-член (type.6).
+D:\CG_GameFramework-feature-lab3\CGLab1\TriangleComponent.cpp(42): warning C26495: Переменная "TriangleComponent::vBuffers" не инициализирована. Всегда инициализируйте переменную-член (type.6).

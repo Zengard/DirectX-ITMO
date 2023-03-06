@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\CG_GameFramework-feature-lab3\CGLab1\</FILEPATH>
+      <FILENAME>GeometryGenerator.cpp</FILENAME>
+      <LINE>9</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Переменная "GeometryGenerator::Vertex::TexC" не инициализирована. Всегда инициализируйте переменную-член (type.6).</DESCRIPTION>
+    <FUNCTION>GeometryGenerator::Vertex::{ctor}</FUNCTION>
+    <DECORATED>??0Vertex@GeometryGenerator@@QEAA@XZ</DECORATED>
+    <FUNCLINE>9</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>GeometryGenerator::Vertex::TexC</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\CG_GameFramework-feature-lab3\CGLab1\</FILEPATH>
+      <FILENAME>GeometryGenerator.cpp</FILENAME>
+      <LINE>9</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Переменная "GeometryGenerator::Vertex::TangentU" не инициализирована. Всегда инициализируйте переменную-член (type.6).</DESCRIPTION>
+    <FUNCTION>GeometryGenerator::Vertex::{ctor}</FUNCTION>
+    <DECORATED>??0Vertex@GeometryGenerator@@QEAA@XZ</DECORATED>
+    <FUNCLINE>9</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>GeometryGenerator::Vertex::TangentU</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\CG_GameFramework-feature-lab3\CGLab1\</FILEPATH>
+      <FILENAME>GeometryGenerator.cpp</FILENAME>
+      <LINE>9</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Переменная "GeometryGenerator::Vertex::Normal" не инициализирована. Всегда инициализируйте переменную-член (type.6).</DESCRIPTION>
+    <FUNCTION>GeometryGenerator::Vertex::{ctor}</FUNCTION>
+    <DECORATED>??0Vertex@GeometryGenerator@@QEAA@XZ</DECORATED>
+    <FUNCLINE>9</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>GeometryGenerator::Vertex::Normal</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\CG_GameFramework-feature-lab3\CGLab1\</FILEPATH>
+      <FILENAME>GeometryGenerator.cpp</FILENAME>
+      <LINE>9</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Переменная "GeometryGenerator::Vertex::Position" не инициализирована. Всегда инициализируйте переменную-член (type.6).</DESCRIPTION>
+    <FUNCTION>GeometryGenerator::Vertex::{ctor}</FUNCTION>
+    <DECORATED>??0Vertex@GeometryGenerator@@QEAA@XZ</DECORATED>
+    <FUNCLINE>9</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>GeometryGenerator::Vertex::Position</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\CG_GameFramework-feature-lab3\CGLab1\</FILEPATH>
+      <FILENAME>Delegates.h</FILENAME>
+      <LINE>409</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Переменная "InlineAllocator&lt;32&gt;::&lt;unnamed-tag&gt;::pPtr" не инициализирована. Всегда инициализируйте переменную-член (type.6).</DESCRIPTION>
+    <FUNCTION>InlineAllocator&lt;32&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$InlineAllocator@$0CA@@@QEAA@XZ</DECORATED>
+    <FUNCLINE>409</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>InlineAllocator&lt;32&gt;::&lt;unnamed-tag&gt;::pPtr</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\CG_GameFramework-feature-lab3\CGLab1\</FILEPATH>
+      <FILENAME>Delegates.h</FILENAME>
+      <LINE>409</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Переменная "InlineAllocator&lt;32&gt;::&lt;unnamed-tag&gt;::Buffer" не инициализирована. Всегда инициализируйте переменную-член (type.6).</DESCRIPTION>
+    <FUNCTION>InlineAllocator&lt;32&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$InlineAllocator@$0CA@@@QEAA@XZ</DECORATED>
+    <FUNCLINE>409</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>InlineAllocator&lt;32&gt;::&lt;unnamed-tag&gt;::Buffer</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

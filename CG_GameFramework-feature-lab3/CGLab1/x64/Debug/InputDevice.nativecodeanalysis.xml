@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\CG_GameFramework-feature-lab3\CGLab1\</FILEPATH>
+      <FILENAME>InputDevice.cpp</FILENAME>
+      <LINE>6</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Переменная "InputDevice::ScreenParam" не инициализирована. Всегда инициализируйте переменную-член (type.6).</DESCRIPTION>
+    <FUNCTION>InputDevice::{ctor}</FUNCTION>
+    <DECORATED>??0InputDevice@@QEAA@XZ</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>InputDevice::ScreenParam</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\CG_GameFramework-feature-lab3\CGLab1\</FILEPATH>
+      <FILENAME>InputDevice.cpp</FILENAME>
+      <LINE>6</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Переменная "InputDevice::hWnd" не инициализирована. Всегда инициализируйте переменную-член (type.6).</DESCRIPTION>
+    <FUNCTION>InputDevice::{ctor}</FUNCTION>
+    <DECORATED>??0InputDevice@@QEAA@XZ</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>InputDevice::hWnd</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\CG_GameFramework-feature-lab3\CGLab1\</FILEPATH>
+      <FILENAME>InputDevice.h</FILENAME>
+      <LINE>19</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Переменная "MouseMoveEventArgs::WheelDelta" не инициализирована. Всегда инициализируйте переменную-член (type.6).</DESCRIPTION>
+    <FUNCTION>MouseMoveEventArgs::{ctor}</FUNCTION>
+    <DECORATED>??0MouseMoveEventArgs@@QEAA@XZ</DECORATED>
+    <FUNCLINE>19</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>MouseMoveEventArgs::WheelDelta</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\CG_GameFramework-feature-lab3\CGLab1\</FILEPATH>
+      <FILENAME>Delegates.h</FILENAME>
+      <LINE>409</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Переменная "InlineAllocator&lt;32&gt;::&lt;unnamed-tag&gt;::pPtr" не инициализирована. Всегда инициализируйте переменную-член (type.6).</DESCRIPTION>
+    <FUNCTION>InlineAllocator&lt;32&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$InlineAllocator@$0CA@@@QEAA@XZ</DECORATED>
+    <FUNCLINE>409</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>InlineAllocator&lt;32&gt;::&lt;unnamed-tag&gt;::pPtr</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\CG_GameFramework-feature-lab3\CGLab1\</FILEPATH>
+      <FILENAME>Delegates.h</FILENAME>
+      <LINE>409</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Переменная "InlineAllocator&lt;32&gt;::&lt;unnamed-tag&gt;::Buffer" не инициализирована. Всегда инициализируйте переменную-член (type.6).</DESCRIPTION>
+    <FUNCTION>InlineAllocator&lt;32&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$InlineAllocator@$0CA@@@QEAA@XZ</DECORATED>
+    <FUNCLINE>409</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>InlineAllocator&lt;32&gt;::&lt;unnamed-tag&gt;::Buffer</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

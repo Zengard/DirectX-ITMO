@@ -1,0 +1,1784 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"Game::display\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                },
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 7,
+                  "endLine": 5,
+                  "endColumn": 7
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Game::{ctor}",
+                  "decoratedName": "??0Game@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Game::display"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"Game::viewport\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                },
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 7,
+                  "endLine": 5,
+                  "endColumn": 7
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Game::{ctor}",
+                  "decoratedName": "??0Game@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Game::viewport"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"Game::deltaTime\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                },
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 7,
+                  "endLine": 5,
+                  "endColumn": 7
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Game::{ctor}",
+                  "decoratedName": "??0Game@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Game::deltaTime"
+          }
+        },
+        {
+          "ruleId": "C6387",
+          "message": {
+            "text": "\"depthBuffer\" может быть \"0\"."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                },
+                "region": {
+                  "startLine": 134,
+                  "startColumn": 2,
+                  "endLine": 134,
+                  "endColumn": 69
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Game::PrepareResources",
+                  "decoratedName": "?PrepareResources@Game@@QEAAHXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 69,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 71,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 72,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 73,
+                            "startColumn": 28
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 74,
+                            "startColumn": 29
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 75,
+                            "startColumn": 29
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 76,
+                            "startColumn": 44
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 77,
+                            "startColumn": 46
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 78,
+                            "startColumn": 39
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 79,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 80,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 81,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 82,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 83,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 84,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 85,
+                            "startColumn": 28
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 86,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 88,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 89,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 90,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 91,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 92,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 93,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 94,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 96,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 111,
+                            "startColumn": 6
+                          }
+                        },
+                        "message": {
+                          "text": "Войти в эту ветвь (предполагается \"FAILED(res)\")"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 113,
+                            "startColumn": 59
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 116,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 117,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 118,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 119,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 120,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 121,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 122,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 123,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 124,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 125,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 126,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 127,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 130,
+                            "startColumn": 32
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 131,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 132,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 133,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 134,
+                            "startColumn": 6
+                          }
+                        },
+                        "message": {
+                          "text": "\"depthBuffer\" не должно равняться NULL, поскольку это не соответствует SAL-аннотации для \"ID3D11Device::CreateDepthStencilView\""
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6387",
+          "message": {
+            "text": "\"backTexture\" может быть \"0\"."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                },
+                "region": {
+                  "startLine": 138,
+                  "startColumn": 2,
+                  "endLine": 138,
+                  "endColumn": 62
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Game::PrepareResources",
+                  "decoratedName": "?PrepareResources@Game@@QEAAHXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 69,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 71,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 72,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 73,
+                            "startColumn": 28
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 74,
+                            "startColumn": 29
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 75,
+                            "startColumn": 29
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 76,
+                            "startColumn": 44
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 77,
+                            "startColumn": 46
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 78,
+                            "startColumn": 39
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 79,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 80,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 81,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 82,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 83,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 84,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 85,
+                            "startColumn": 28
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 86,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 88,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 89,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 90,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 91,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 92,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 93,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 94,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 96,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 111,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 113,
+                            "startColumn": 59
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 116,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 117,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 118,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 119,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 120,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 121,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 122,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 123,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 124,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 125,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 126,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 127,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 130,
+                            "startColumn": 32
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 131,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 132,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 133,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 134,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 136,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 137,
+                            "startColumn": 6
+                          }
+                        },
+                        "message": {
+                          "text": "\"backTexture\" может быть равно NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+                          },
+                          "region": {
+                            "startLine": 138,
+                            "startColumn": 6
+                          }
+                        },
+                        "message": {
+                          "text": "\"backTexture\" не должно равняться NULL, поскольку это не соответствует SAL-аннотации для \"ID3D11Device::CreateRenderTargetView\""
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"TriangleComponentParameters::numIndeces\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/TriangleComponent.h"
+                },
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 1,
+                  "endLine": 14,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "TriangleComponentParameters::{ctor}",
+                  "decoratedName": "??0TriangleComponentParameters@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "TriangleComponentParameters::numIndeces"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"TriangleComponentParameters::numPoints\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/TriangleComponent.h"
+                },
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 1,
+                  "endLine": 14,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "TriangleComponentParameters::{ctor}",
+                  "decoratedName": "??0TriangleComponentParameters@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "TriangleComponentParameters::numPoints"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"TriangleComponentParameters::indeces\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/TriangleComponent.h"
+                },
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 1,
+                  "endLine": 14,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "TriangleComponentParameters::{ctor}",
+                  "decoratedName": "??0TriangleComponentParameters@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "TriangleComponentParameters::indeces"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"TriangleComponentParameters::points\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/TriangleComponent.h"
+                },
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 1,
+                  "endLine": 14,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "TriangleComponentParameters::{ctor}",
+                  "decoratedName": "??0TriangleComponentParameters@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "TriangleComponentParameters::points"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"InlineAllocator<32>::<unnamed-tag>::pPtr\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Delegates.h"
+                },
+                "region": {
+                  "startLine": 409,
+                  "startColumn": 3,
+                  "endLine": 409,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "InlineAllocator<32>::{ctor}",
+                  "decoratedName": "??0?$InlineAllocator@$0CA@@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "InlineAllocator<32>::<unnamed-tag>::pPtr"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"InlineAllocator<32>::<unnamed-tag>::Buffer\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Delegates.h"
+                },
+                "region": {
+                  "startLine": 409,
+                  "startColumn": 3,
+                  "endLine": 409,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "InlineAllocator<32>::{ctor}",
+                  "decoratedName": "??0?$InlineAllocator@$0CA@@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "InlineAllocator<32>::<unnamed-tag>::Buffer"
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.34.31942.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Game.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "e558ac94324136ab094f1a04094fa7b7afb28fe78b3cb33e8009e92526b8d826"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/TriangleComponent.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "ce8f5e44574494e077f2b3b94b0b7f9325e8cddca36e2852a9f3d3ed4bba6a3f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/CG_GameFramework-feature-lab3/CGLab1/Delegates.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "f79a65cdd6691ba5fed2c92500583ce61e4c36eed5491395ecd9ad7ca851e3f8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/cg_gameframework-feature-lab3/cglab1/export.h"
+          },
+          "hashes": {
+            "sha-256": "f788a9b26c3d0bfada82395a7324b3038cded7197c9910569c2b9c3bf46b331a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/cg_gameframework-feature-lab3/cglab1/simplemath.h"
+          },
+          "hashes": {
+            "sha-256": "a28b17c2ade6e3e1b100a7603cd8b0dc3c03df2a0fd3924e6b118a107618be64"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/cg_gameframework-feature-lab3/cglab1/simplemath.inl"
+          },
+          "hashes": {
+            "sha-256": "c2f52420fc682dbce209780d47c8b657ab8adbc26e6ed129bcfe1f3998d81707"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/cg_gameframework-feature-lab3/cglab1/game.h"
+          },
+          "hashes": {
+            "sha-256": "cddeb727279a74223de80237dd35f259e15cf8020a17c209d4ec01ad4e9c46dc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/cg_gameframework-feature-lab3/cglab1/displaywin.h"
+          },
+          "hashes": {
+            "sha-256": "4cf1397bed12fc582e8d105f53b9ca09315b7235acb16109b0317bcc58145b56"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/cg_gameframework-feature-lab3/cglab1/inputdevice.h"
+          },
+          "hashes": {
+            "sha-256": "e65a06562d1502f238f959c991cd2d1536bd6a6e70f1f6bbea848d337324f827"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/cg_gameframework-feature-lab3/cglab1/keys.h"
+          },
+          "hashes": {
+            "sha-256": "be57f346a231c1e1acf6487c8598d487b014caed19574c581eef10b4618f9065"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/cg_gameframework-feature-lab3/cglab1/gamecomponent.h"
+          },
+          "hashes": {
+            "sha-256": "3a1626ad4afe9e0a94f8ba872931dde8c24b33a016daf2123693433a0f01eb89"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/cg_gameframework-feature-lab3/cglab1/camera.h"
+          },
+          "hashes": {
+            "sha-256": "f0e59a929c02bcfedf390ae6932bb30391226302dd25729ebff060234424ab7e"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+D:\CG_GameFramework-feature-lab3\x64\Debug\CGLab1.exe.lastcodeanalysissucceeded
+D:\CG_GameFramework-feature-lab3\CGLab1\x64\Debug\NativeCodeAnalysis.read.1.tlog
